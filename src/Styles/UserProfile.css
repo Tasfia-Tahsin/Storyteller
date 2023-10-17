@@ -1,0 +1,64 @@
+.UserProfile{
+    border-radius: 30px;
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns in each row */
+  gap: 20px; 
+}
+.StoryProfile{
+  border-radius: 30px;
+  margin-top: 0px;
+  margin-left: 70px;
+  margin-right: 40px;
+  padding-bottom: 20px;
+  display: grid;
+  background-color: rgb(227, 227, 193);
+grid-template-columns: repeat(3, 1fr); /* Three columns in each row */
+gap: 20px; 
+}
+
+/* UserProfile.css */
+
+/* UserProfile.css */
+
+.search-bar {
+  font-family: 'Comic Neue', cursive; 
+  margin-top: 20px; /* Added top-margin */
+  width: 80%; /* Set width to 80% of the viewport width */
+  margin-left: auto; /* Center the search bar horizontally */
+  margin-right: auto; /* Center the search bar horizontally */
+  
+}
+
+.search-bar input {
+  font-family: 'Comic Neue', cursive; 
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  border: 2px solid green; /* Remove the border */
+  border-radius: 20px; /* Add rounded corners */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  outline: none;
+  height: 40px; /* Increase the height */
+  
+}
+
+.search-bar:hover {
+  /* Scale up by 5% on hover */
+ box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.search-icon-container {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 10px;
+  transform: translateY(-50%);
+}
+
+.search-icon-container i {
+  font-size: 20px; /* Adjust the size of the search icon */
+  color: #333; /* Adjust the color of the icon */
+}

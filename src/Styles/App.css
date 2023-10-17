@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite; /* Keeps the background fixed while scrolling */
+  
+  background-position-x: 50px;
+  background-position-y: 30px;
+  font-family: 'Open Sans', sans-serif; /* Specify your desired font-family */
+  color: #ffffff; /* Text color on top of the background image */
+  background-color: #F7F4EC;
+}
+.HomepageContent{
+  border: 4px;
+  border-color: black;
+  height: 60vh;
+  width: 50vw;
+  margin-left: auto;
+  background-image: url('../Illustrations/diary.png');
+  background-repeat: no-repeat;
+  margin-right: 80px;
+  margin-top: 110px;
+  background-size: 100%;
+  overflow: visible;
+}
+
+/* button*/
+
+.button-74 {
+  background-color: #eec63a;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 90px;
+  margin-left: 650px;
+}
+
+.button-74:hover {
+  background-color: #81905f;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.websiteIntro {
+  font-family: 'Comic Neue', cursive; /* Use a cursive or handwriting-like font */
+  color: #220f01; /* Dark brown color */
+  font-size: 24px; /* Adjust the font size as needed */
+  text-align: center; /* Center-align the text */
+  margin-top: -70px; /* Add top margin as needed */
+  margin-left: 570px;
+  padding: 10px; /* Add padding for spacing */
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  
+}
+
+.Storyteller {
+  font-family: 'Comic Neue', cursive; /* Use a cursive or handwriting-like font */
+  color: #220f01; /* Dark brown color */
+  font-size: 54px; /* Adjust the font size as needed */
+  text-align: center; /* Center-align the text */
+  font-weight: bold;
+  margin-top: 200px;
+  margin-left: 150px;
+  width: 300px;
+  height: 50px;
+  padding: 10px; 
+  
+}
+
+.Homepage{
+  background-image: url('../Illustrations/homepageBackground2.png');
+  background-repeat: no-repeat;
+  background-position-x: 7%;
+  background-position-y: 150%;
+
+}

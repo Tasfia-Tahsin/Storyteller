@@ -1,0 +1,229 @@
+.UserProfilePage {
+    display: flex;
+  flex-direction: column; /* Stack child divs vertically */
+  align-items: center;
+  }
+  
+  .StoryPreview{
+    display: flex;
+    border: 4px;
+    border-color: black;
+    height: 60vh;
+    width: 85vw;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    background-size: 55%;
+    overflow: visible;
+    background-color: antiquewhite;
+    background-position-x: 60px;
+    border-radius: 30px; /* Rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 4px solid #81905F;
+    background-position-y: 20px;
+  }
+
+  .UserIntroduction{
+    display: flex;
+    border: 4px;
+    height: 60vh;
+    width: 85vw;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    overflow: visible;
+    border-radius: 30px; /* Rounded edges */
+    box-shadow: 0 4px 6px rgba( 0.3, 0.3, 0.3, 0.3);
+    justify-content: center; 
+    align-items: center;
+  }
+  .StoryIntroduction{
+    display: flex;
+    border: 4px;
+    height: 60vh;
+    width: 85vw;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    overflow: visible;
+    border-radius: 30px; /* Rounded edges */
+    box-shadow: 0 4px 6px rgba( 0.3, 0.3, 0.3, 0.3);
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(227, 227, 193);
+  }
+  .h1{
+    width: 100%;
+  }
+.Top{
+    display: flex;
+    margin-top: -5%;
+}
+  
+  .UserIntroduction img {
+    /* Add styles for the image here */
+    
+    margin-left: 3%;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Let the height adjust automatically based on the aspect ratio */
+    max-height: 40vh; /* Set a maximum height to prevent the image from becoming too tall */
+    border-radius: 30px; /* Rounded edges for the image */
+    border: 4px solid #81905F;
+  }
+  
+  .Info {
+    /* Add styles for the image here */
+    background: antiquewhite;
+    border: 4px solid #81905F;
+    border-radius: 30px;
+    width : 80%;
+    height: 70%;
+    margin-left: 2%; 
+    margin-right: 2%;
+    font-family: 'Comic Neue', cursive; /* Use a cursive or handwriting-like font */
+    color: #220f01; /* Dark brown color */
+    font-size: 24px;
+    
+     /* Use flexbox */
+    
+ 
+  }
+
+  .Text{ 
+    margin-top: 5%;
+    margin-left: 5%;
+     margin-right: 5%;
+     
+  }
+  .Preview{
+    width: 80%;
+    height: 30%; 
+    margin-left: 80px; 
+   margin-top: 40px;
+    display: flex;
+    justify-content: space-between; /* Spread children evenly with gaps in the middle */
+    align-items: center; 
+  }
+  .Preview > div {
+    flex: 1; /* Make the child elements evenly distribute space */
+    text-align: center; /* Center-align text within each child element */
+    padding: 10px; /* Add space around each child element */
+    
+  }
+
+  .Following{
+    margin-left: 10%;
+    width: 10%;
+    height: 90%; 
+    display: flex;
+  flex-direction: column; /* Stack text vertically */
+  justify-content: center; /* Vertically center text */
+  align-items: center;
+  box-shadow: 0px 4px 0px 0px  rgba(0, 0, 0, 0.1); /* Add box shadow */
+  border-radius: 24px;
+  }
+  .Following p {
+    font-weight: bold; /* Make the text bold */
+    font-size: 24px; /* Increase font size */
+    margin: 0; /* Remove default margin to center text properly */
+  }
+  
+  
+  .ExploreDestinations{
+    display: flex;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 30px; /* Rounded edges */
+    background-color: antiquewhite;
+    background-image: url('../Illustrations/destination.png');
+    border: 4px;
+    border-color: black;
+    height: 60vh;
+    width: 50vw;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    margin-right: 80px;
+    margin-top: 110px;
+    background-size: 55%;
+    overflow: visible;
+    background-position-x: 50px;
+    background-position-y: 20px;
+    border: 4px solid #81905F;
+  }
+  .ExploreProfile:hover {
+    transform: scale(1.05);  /* Scale up by 5% on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  .ExploreDestinations:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  .ExploreContent{
+    font-family: 'Comic Neue', cursive; /* Use a cursive or handwriting-like font */
+    color: #220f01; /* Dark brown color */
+    font-size: 30px; /* Adjust the font size as needed */
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    margin-top: 260px;
+    margin-left: 550px;
+  }
+
+
+  /* CSS */
+  .button{
+    background-color: #eec63a;
+    border: 2px solid #422800;
+    width: 180px;
+    height: 40px;
+    
+    margin-left: 10%;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    justify-content: center; /* Horizontally center text */
+    align-items: center; /* Vertically center text */
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+  .button:hover {
+    background-color: #efcf5d;
+  }
+  .button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+.search-bar {
+    font-family: 'Comic Neue', cursive; 
+    margin-top: 80px; /* Added top-margin */
+    width: 80%; /* Set width to 80% of the viewport width */
+    margin-left: auto; /* Center the search bar horizontally */
+    margin-right: auto; /* Center the search bar horizontally */
+    
+  }
+  
+  .search-bar input {
+    font-family: 'Comic Neue', cursive; 
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid green; /* Remove the border */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    outline: none;
+    height: 40px; /* Increase the height */
+    
+  }
+  
+  .search-bar:hover {
+    /* Scale up by 5% on hover */
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .search-icon-container {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .search-icon-container i {
+    font-size: 20px; /* Adjust the size of the search icon */
+    color: #333; /* Adjust the color of the icon */
+  }
